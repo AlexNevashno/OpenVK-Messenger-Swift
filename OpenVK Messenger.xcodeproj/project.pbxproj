@@ -1,0 +1,804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		026187B0652A609C59593B18 /* TelegramThemeImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE7FACFC2AD8A163AA7578F /* TelegramThemeImporter.swift */; };
+		052F521EDA703EA6D05A376B /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFEF2F188569215283F147C /* NotificationService.swift */; };
+		0531E329A1C362C52EDEBE59 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FD6B33A3E1039333110D02 /* ChatView.swift */; };
+		0816CE55EE9C558306EA6B5D /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C28491E6E3A69FF28E2FEE /* Models.swift */; };
+		091C4AE3E70B6C20B4AD147E /* SettingsModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40C0E5ABDC44F5C0BA46345 /* SettingsModalView.swift */; };
+		0DE34015935339799B14154E /* AccountBankModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0073FC7BCA1F3DCFC5E32A23 /* AccountBankModalView.swift */; };
+		0ECEF6CFF8BF866859E5475D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C211C253DF8482A5A8402 /* LoginView.swift */; };
+		10E21F586E723181E458D00E /* TelegramThemeImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE7FACFC2AD8A163AA7578F /* TelegramThemeImporter.swift */; };
+		13928618D71E0E8B737C426C /* AudioPlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7762374E2CBE4B2C56B91E /* AudioPlayerService.swift */; };
+		1456002F1E3F24A4CF59AAD6 /* ColorContrast.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE3C27E416E16BDEDE38AE0 /* ColorContrast.swift */; };
+		14DCB73562D522651639A4E9 /* CommunityMessagesModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F9F6A7247C585A79B4F898 /* CommunityMessagesModalView.swift */; };
+		16BAFD64A2EC29D64D10EE16 /* PinnedMessageBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0295418CF68F124ACE2DED4 /* PinnedMessageBarView.swift */; };
+		17CBB4514F2DE1EE1EC538E8 /* TelegramAudioMiniplayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B15334749ACAB5D71984758 /* TelegramAudioMiniplayerView.swift */; };
+		17EB70ED014B073D40B14BFB /* ConversationsSidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66386F33692BF77DC27AC99D /* ConversationsSidebarView.swift */; };
+		188129FDCEAA0915F4804193 /* ConversationsSidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66386F33692BF77DC27AC99D /* ConversationsSidebarView.swift */; };
+		19E4D8A9AF0C6B2D48734001 /* CommunityMessagesModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F9F6A7247C585A79B4F898 /* CommunityMessagesModalView.swift */; };
+		1CFC9FC476725886F163889C /* VKConversationInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA733E4E43D7A1130D2C203 /* VKConversationInfoView.swift */; };
+		1E03DC3844FA93FC1DAAB142 /* TelegramAudioMiniplayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B15334749ACAB5D71984758 /* TelegramAudioMiniplayerView.swift */; };
+		2068231EFEDFD8757063305B /* burano_preview.png in Resources */ = {isa = PBXBuildFile; fileRef = 174292C68EA32DF5AD723C0F /* burano_preview.png */; };
+		22A6F92273F84FF243A8504B /* NewMessageModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE7545208FAA3CF581220F8 /* NewMessageModalView.swift */; };
+		25A3A2D261C54CB50F52B1E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B02992511190AE197F587F0F /* Assets.xcassets */; };
+		26B81B57E7299F8D53848361 /* telegram_doodles.png in Resources */ = {isa = PBXBuildFile; fileRef = CD51D105CF7B59C007C6944E /* telegram_doodles.png */; };
+		2C07C24697402920D75B1DE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B02992511190AE197F587F0F /* Assets.xcassets */; };
+		2EF55AEC14A10739304D04C9 /* VKImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D1E00E89D5D3351D4202CE /* VKImageCache.swift */; };
+		337BE8529C76271A4524ED72 /* ChatFoldersSidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE4894DCC6EEE4F3484D6DF /* ChatFoldersSidebarView.swift */; };
+		345CE528D8E27BF3F69F061B /* AccountBankModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0073FC7BCA1F3DCFC5E32A23 /* AccountBankModalView.swift */; };
+		39D90ADC264BF7C0018FA89B /* OpenVKLongPollService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE74026060EDAF6AFF37429 /* OpenVKLongPollService.swift */; };
+		3A290EF1A6380973FBCF776A /* FolderManagerModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548F3AE7EF632ADA0420CEB3 /* FolderManagerModalView.swift */; };
+		447CEC7D8A96BC78498B142F /* VKDesignTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD60132D0F0FA596E0F8BA50 /* VKDesignTokens.swift */; };
+		4BECE96B48D3CA097B267511 /* VideoPlayerWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC6F10890E8F4BB90DA1011 /* VideoPlayerWindowView.swift */; };
+		4E0A43D1246E6AF97EE71F76 /* ColorContrast.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE3C27E416E16BDEDE38AE0 /* ColorContrast.swift */; };
+		4E3F7D1F744DA090EBC44C14 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = AABFA8CB8AA2C944AE981E5C /* Lottie */; };
+		4FA91AD169DAD4044E2CCF67 /* VKMediaAttachSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C34DA365933ACE01CF7587 /* VKMediaAttachSheetView.swift */; };
+		51C1C2EE48442AA946F04423 /* ChatHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333B27A60C0A8504FF215DD /* ChatHeaderView.swift */; };
+		58F765609093A9CF5354AFE5 /* MessageRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E4A6E654E3B6B011EBEF65 /* MessageRowView.swift */; };
+		5BA35F633C19AA7C39C2A936 /* PlatformCompat.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2EA1BFB8A0E38F4CC7C165 /* PlatformCompat.swift */; };
+		60300389F2B10380D63369C1 /* burano_preview.png in Resources */ = {isa = PBXBuildFile; fileRef = 174292C68EA32DF5AD723C0F /* burano_preview.png */; };
+		60F1CE5729A45B530B7B6D0F /* ThemePreviewModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125A85C2E642445F60BEA532 /* ThemePreviewModalView.swift */; };
+		617D0137B3FF277A84758EA8 /* PlatformCompat.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2EA1BFB8A0E38F4CC7C165 /* PlatformCompat.swift */; };
+		619BB5975203AAE793AF1350 /* PinnedMessageBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0295418CF68F124ACE2DED4 /* PinnedMessageBarView.swift */; };
+		65E2A29DF5EFEF2257F8F4F9 /* VKConversationInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA733E4E43D7A1130D2C203 /* VKConversationInfoView.swift */; };
+		6BE768B6C110F3C90CE73B70 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE061083CD038B54F68EAA71 /* ThemeManager.swift */; };
+		6F71105FBDBA8F5AC5E8D004 /* VKAnimatedGIFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B12EFD600AB4C57C5AC195 /* VKAnimatedGIFView.swift */; };
+		76101E25E7FB49273B71316C /* ConversationRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C082618BDAF3F4FD998B12 /* ConversationRowView.swift */; };
+		76B895BF8617BAA6E1BE0BE8 /* ThemeAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287E8B1779361D4AF7AE2B55 /* ThemeAssets.swift */; };
+		775CBAF5425FFB894578F762 /* AudioPlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7762374E2CBE4B2C56B91E /* AudioPlayerService.swift */; };
+		8393735CC83E989347F31F05 /* VKAnimatedStickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FBA15E1AF3E55B70D0F705 /* VKAnimatedStickerView.swift */; };
+		84A5EA94E3F48507715A2126 /* OpenVKAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED70273FFECF5BD58139B61 /* OpenVKAPIService.swift */; };
+		87407FD96C78C38C20ACA6A2 /* VKAnimatedGIFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B12EFD600AB4C57C5AC195 /* VKAnimatedGIFView.swift */; };
+		8A82964E0B2B74B4BFE7B2BA /* WriteBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA33A80B72C9319CF10C7146 /* WriteBarView.swift */; };
+		8AAE7A78B286238733CC6A5A /* ThemePreviewModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125A85C2E642445F60BEA532 /* ThemePreviewModalView.swift */; };
+		90CCF9AB1E46077E431EC086 /* ThemeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0643B3CE74B0BAD7FECB7DB0 /* ThemeModel.swift */; };
+		913300E4851A7A245273FB08 /* VKEmojiStickerPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB0B1F5271DC95373D546FE /* VKEmojiStickerPickerView.swift */; };
+		9341BEC1AA56D9604006D218 /* iOSMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B40CBDC95129DF25A5026 /* iOSMainView.swift */; };
+		941AB26C213A9DE37EFB0C81 /* MessengerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC668B2AAB2106C496683A9 /* MessengerStore.swift */; };
+		945AE1047F415D70BFE37653 /* VKEmojiStickerPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB0B1F5271DC95373D546FE /* VKEmojiStickerPickerView.swift */; };
+		9866798655424EFDBE8C4E33 /* VKComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E102507AA9267A5FA7EEAB /* VKComponents.swift */; };
+		9D8B1737E9361BB8ECB5679E /* CrashLoggerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7191B32713A34D5C9011F461 /* CrashLoggerService.swift */; };
+		A0CEB69CE3F2A317D41418FE /* OpenVKAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED70273FFECF5BD58139B61 /* OpenVKAPIService.swift */; };
+		A19B604761D2DCDD98108B05 /* OpenVKLongPollService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE74026060EDAF6AFF37429 /* OpenVKLongPollService.swift */; };
+		A3362C0959AB73540D56688A /* telegram_doodles.png in Resources */ = {isa = PBXBuildFile; fileRef = CD51D105CF7B59C007C6944E /* telegram_doodles.png */; };
+		A4036D4CFBD6A9FE5541419A /* FolderManagerModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548F3AE7EF632ADA0420CEB3 /* FolderManagerModalView.swift */; };
+		A810DD4DD4D4CD2DCE4721FF /* OpenVKMessengerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B25578C370B86980735CBAF /* OpenVKMessengerApp.swift */; };
+		A89557D186366CE4CFB1EF01 /* OpenVKMessengerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B25578C370B86980735CBAF /* OpenVKMessengerApp.swift */; };
+		AD120932EF6620C511896E69 /* VideoPlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC67F6CCFBDBC304C0C6DB7C /* VideoPlayerService.swift */; };
+		AE70DC5D6CF3847AA70199A8 /* ChatFoldersSidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE4894DCC6EEE4F3484D6DF /* ChatFoldersSidebarView.swift */; };
+		AF994A64ED68BC055739025E /* ChatHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B333B27A60C0A8504FF215DD /* ChatHeaderView.swift */; };
+		B0B8F23CC844D3BC3B1258D4 /* iOSMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B40CBDC95129DF25A5026 /* iOSMainView.swift */; };
+		BA6834DFE5AE7985413E304C /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FD6B33A3E1039333110D02 /* ChatView.swift */; };
+		C1C5400041D26DD850D3A404 /* WriteBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA33A80B72C9319CF10C7146 /* WriteBarView.swift */; };
+		C281DE079F76CC2E1F0AE9AF /* ChatWallpaperBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14F7CA8FDD7D387D391582F /* ChatWallpaperBackgroundView.swift */; };
+		C3FAE3F293BC74E35EE295B6 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFEF2F188569215283F147C /* NotificationService.swift */; };
+		C566A457D30948E2E014F5A4 /* MessageRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E4A6E654E3B6B011EBEF65 /* MessageRowView.swift */; };
+		CBB60309DCA1DF76D142BA06 /* ThemeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0643B3CE74B0BAD7FECB7DB0 /* ThemeModel.swift */; };
+		CC2C64E178E38E7395FCC981 /* MessengerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC668B2AAB2106C496683A9 /* MessengerStore.swift */; };
+		CE8CD19AB1E81CF3FF73BA27 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE061083CD038B54F68EAA71 /* ThemeManager.swift */; };
+		D3DEFBF6B8221EDB5115F7A4 /* PhotoViewerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E6771D50DC3D87DA1B6E00 /* PhotoViewerService.swift */; };
+		D517533BC1FE5CB21A382D0D /* ThemeAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287E8B1779361D4AF7AE2B55 /* ThemeAssets.swift */; };
+		D660D07139CF689123369792 /* VideoPlayerWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC6F10890E8F4BB90DA1011 /* VideoPlayerWindowView.swift */; };
+		D833E2696EAD4170B03752A4 /* VKComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E102507AA9267A5FA7EEAB /* VKComponents.swift */; };
+		D94D8354CC59CF707CC1AB7B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270B2E41183C9A7D828510C7 /* MainView.swift */; };
+		E05139912BE49FBEECDD3A42 /* NewMessageModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE7545208FAA3CF581220F8 /* NewMessageModalView.swift */; };
+		E1BDBC7D3A0E40240A01CBB8 /* CrashLoggerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7191B32713A34D5C9011F461 /* CrashLoggerService.swift */; };
+		E2946E861ACA741AE9AC1DF2 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 2E70DB3614343010823793CB /* AppIcon.icns */; };
+		E365D04157ECA51C350EA8E1 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = A9D4D7A70A2E273086262843 /* Lottie */; };
+		E4134AC1C8270E1B1070634A /* PhotoViewerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E6771D50DC3D87DA1B6E00 /* PhotoViewerService.swift */; };
+		E6A36F8ECD0D3C9298AAFB29 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C211C253DF8482A5A8402 /* LoginView.swift */; };
+		E80708DFA4608B4E8EEF1207 /* SettingsModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40C0E5ABDC44F5C0BA46345 /* SettingsModalView.swift */; };
+		EA9F58A93BEA764C29E8EBD0 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C28491E6E3A69FF28E2FEE /* Models.swift */; };
+		EAC0B2FE4CECFC61121C5787 /* VKDesignTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD60132D0F0FA596E0F8BA50 /* VKDesignTokens.swift */; };
+		EACB6655C8A8AAAC28D908B4 /* VideoPlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC67F6CCFBDBC304C0C6DB7C /* VideoPlayerService.swift */; };
+		F16720754353E319B0DAB733 /* VKImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D1E00E89D5D3351D4202CE /* VKImageCache.swift */; };
+		F2A1484E7A458C8BCE0DFB27 /* VKMediaAttachSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C34DA365933ACE01CF7587 /* VKMediaAttachSheetView.swift */; };
+		F3AA0135CB31E6A3D19A1400 /* VKAnimatedStickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FBA15E1AF3E55B70D0F705 /* VKAnimatedStickerView.swift */; };
+		F49C8FDCCC0713EBDFD2F403 /* ChatWallpaperBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14F7CA8FDD7D387D391582F /* ChatWallpaperBackgroundView.swift */; };
+		F5089DDACBC6C522DEA83280 /* PhotoViewerWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7841BDDD21CDF2A4A6B6F389 /* PhotoViewerWindowView.swift */; };
+		F9B2399C2D9B10D273A586A6 /* PhotoViewerWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7841BDDD21CDF2A4A6B6F389 /* PhotoViewerWindowView.swift */; };
+		FC4E79E6D6294A062025605B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270B2E41183C9A7D828510C7 /* MainView.swift */; };
+		FEC051FC538BC48135756807 /* ConversationRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C082618BDAF3F4FD998B12 /* ConversationRowView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0073FC7BCA1F3DCFC5E32A23 /* AccountBankModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBankModalView.swift; sourceTree = "<group>"; };
+		0643B3CE74B0BAD7FECB7DB0 /* ThemeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeModel.swift; sourceTree = "<group>"; };
+		0AA733E4E43D7A1130D2C203 /* VKConversationInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKConversationInfoView.swift; sourceTree = "<group>"; };
+		0B25578C370B86980735CBAF /* OpenVKMessengerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenVKMessengerApp.swift; sourceTree = "<group>"; };
+		0DE74026060EDAF6AFF37429 /* OpenVKLongPollService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenVKLongPollService.swift; sourceTree = "<group>"; };
+		0F7762374E2CBE4B2C56B91E /* AudioPlayerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerService.swift; sourceTree = "<group>"; };
+		125A85C2E642445F60BEA532 /* ThemePreviewModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePreviewModalView.swift; sourceTree = "<group>"; };
+		16FD6B33A3E1039333110D02 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		174292C68EA32DF5AD723C0F /* burano_preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = burano_preview.png; sourceTree = "<group>"; };
+		270B2E41183C9A7D828510C7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		287E8B1779361D4AF7AE2B55 /* ThemeAssets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeAssets.swift; sourceTree = "<group>"; };
+		2E70DB3614343010823793CB /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
+		2EB0B1F5271DC95373D546FE /* VKEmojiStickerPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKEmojiStickerPickerView.swift; sourceTree = "<group>"; };
+		2ED70273FFECF5BD58139B61 /* OpenVKAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenVKAPIService.swift; sourceTree = "<group>"; };
+		4DE7FACFC2AD8A163AA7578F /* TelegramThemeImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelegramThemeImporter.swift; sourceTree = "<group>"; };
+		50FBA15E1AF3E55B70D0F705 /* VKAnimatedStickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKAnimatedStickerView.swift; sourceTree = "<group>"; };
+		53B12EFD600AB4C57C5AC195 /* VKAnimatedGIFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKAnimatedGIFView.swift; sourceTree = "<group>"; };
+		548F3AE7EF632ADA0420CEB3 /* FolderManagerModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderManagerModalView.swift; sourceTree = "<group>"; };
+		5BFEF2F188569215283F147C /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		5CE7545208FAA3CF581220F8 /* NewMessageModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMessageModalView.swift; sourceTree = "<group>"; };
+		66386F33692BF77DC27AC99D /* ConversationsSidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsSidebarView.swift; sourceTree = "<group>"; };
+		7191B32713A34D5C9011F461 /* CrashLoggerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrashLoggerService.swift; sourceTree = "<group>"; };
+		726B40CBDC95129DF25A5026 /* iOSMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSMainView.swift; sourceTree = "<group>"; };
+		76F9F6A7247C585A79B4F898 /* CommunityMessagesModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityMessagesModalView.swift; sourceTree = "<group>"; };
+		7841BDDD21CDF2A4A6B6F389 /* PhotoViewerWindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerWindowView.swift; sourceTree = "<group>"; };
+		7B15334749ACAB5D71984758 /* TelegramAudioMiniplayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelegramAudioMiniplayerView.swift; sourceTree = "<group>"; };
+		7BDFC18ABAE583B88C3B9DD2 /* OpenVK Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenVK Messenger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DC6F10890E8F4BB90DA1011 /* VideoPlayerWindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerWindowView.swift; sourceTree = "<group>"; };
+		84E102507AA9267A5FA7EEAB /* VKComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKComponents.swift; sourceTree = "<group>"; };
+		930C211C253DF8482A5A8402 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		9A01C51EC91F0AD0700BB02F /* OpenVK Messenger iOS.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = "OpenVK Messenger iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1C28491E6E3A69FF28E2FEE /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		AE061083CD038B54F68EAA71 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		B02992511190AE197F587F0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2D1E00E89D5D3351D4202CE /* VKImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKImageCache.swift; sourceTree = "<group>"; };
+		B333B27A60C0A8504FF215DD /* ChatHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatHeaderView.swift; sourceTree = "<group>"; };
+		B6C082618BDAF3F4FD998B12 /* ConversationRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationRowView.swift; sourceTree = "<group>"; };
+		B9E4A6E654E3B6B011EBEF65 /* MessageRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRowView.swift; sourceTree = "<group>"; };
+		BA33A80B72C9319CF10C7146 /* WriteBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteBarView.swift; sourceTree = "<group>"; };
+		BD60132D0F0FA596E0F8BA50 /* VKDesignTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKDesignTokens.swift; sourceTree = "<group>"; };
+		C1E6771D50DC3D87DA1B6E00 /* PhotoViewerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerService.swift; sourceTree = "<group>"; };
+		C7C34DA365933ACE01CF7587 /* VKMediaAttachSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKMediaAttachSheetView.swift; sourceTree = "<group>"; };
+		CD51D105CF7B59C007C6944E /* telegram_doodles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = telegram_doodles.png; sourceTree = "<group>"; };
+		CF2EA1BFB8A0E38F4CC7C165 /* PlatformCompat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformCompat.swift; sourceTree = "<group>"; };
+		D40C0E5ABDC44F5C0BA46345 /* SettingsModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModalView.swift; sourceTree = "<group>"; };
+		E0295418CF68F124ACE2DED4 /* PinnedMessageBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinnedMessageBarView.swift; sourceTree = "<group>"; };
+		EBE4894DCC6EEE4F3484D6DF /* ChatFoldersSidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatFoldersSidebarView.swift; sourceTree = "<group>"; };
+		ECC668B2AAB2106C496683A9 /* MessengerStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerStore.swift; sourceTree = "<group>"; };
+		F14F7CA8FDD7D387D391582F /* ChatWallpaperBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatWallpaperBackgroundView.swift; sourceTree = "<group>"; };
+		FC67F6CCFBDBC304C0C6DB7C /* VideoPlayerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerService.swift; sourceTree = "<group>"; };
+		FDE3C27E416E16BDEDE38AE0 /* ColorContrast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorContrast.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55880B4144C098EBFAC124B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E365D04157ECA51C350EA8E1 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		951C686992451D0722681C1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E3F7D1F744DA090EBC44C14 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01B46FA34BF83260366454B7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A1C28491E6E3A69FF28E2FEE /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1E5E6F1452C5265EB92F3081 /* VKUI */ = {
+			isa = PBXGroup;
+			children = (
+				174292C68EA32DF5AD723C0F /* burano_preview.png */,
+				FDE3C27E416E16BDEDE38AE0 /* ColorContrast.swift */,
+				CF2EA1BFB8A0E38F4CC7C165 /* PlatformCompat.swift */,
+				CD51D105CF7B59C007C6944E /* telegram_doodles.png */,
+				4DE7FACFC2AD8A163AA7578F /* TelegramThemeImporter.swift */,
+				287E8B1779361D4AF7AE2B55 /* ThemeAssets.swift */,
+				AE061083CD038B54F68EAA71 /* ThemeManager.swift */,
+				0643B3CE74B0BAD7FECB7DB0 /* ThemeModel.swift */,
+				84E102507AA9267A5FA7EEAB /* VKComponents.swift */,
+				BD60132D0F0FA596E0F8BA50 /* VKDesignTokens.swift */,
+			);
+			path = VKUI;
+			sourceTree = "<group>";
+		};
+		4C0AED164345BAD184780B66 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B8DC54BF9381B7AB7ACC30D8 /* OpenVKMessenger */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		5C5A098C2F8DF565BAC5C18B = {
+			isa = PBXGroup;
+			children = (
+				2E70DB3614343010823793CB /* AppIcon.icns */,
+				B02992511190AE197F587F0F /* Assets.xcassets */,
+				4C0AED164345BAD184780B66 /* Sources */,
+				D27EB72B9C5D21E137B94BDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8DC54BF9381B7AB7ACC30D8 /* OpenVKMessenger */ = {
+			isa = PBXGroup;
+			children = (
+				0B25578C370B86980735CBAF /* OpenVKMessengerApp.swift */,
+				01B46FA34BF83260366454B7 /* Models */,
+				EB6B0529DAB13DD83EBBA401 /* Services */,
+				BD68C48A9E2B88BCEF944D44 /* Views */,
+				1E5E6F1452C5265EB92F3081 /* VKUI */,
+			);
+			path = OpenVKMessenger;
+			sourceTree = "<group>";
+		};
+		BD68C48A9E2B88BCEF944D44 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0073FC7BCA1F3DCFC5E32A23 /* AccountBankModalView.swift */,
+				EBE4894DCC6EEE4F3484D6DF /* ChatFoldersSidebarView.swift */,
+				B333B27A60C0A8504FF215DD /* ChatHeaderView.swift */,
+				16FD6B33A3E1039333110D02 /* ChatView.swift */,
+				F14F7CA8FDD7D387D391582F /* ChatWallpaperBackgroundView.swift */,
+				76F9F6A7247C585A79B4F898 /* CommunityMessagesModalView.swift */,
+				B6C082618BDAF3F4FD998B12 /* ConversationRowView.swift */,
+				66386F33692BF77DC27AC99D /* ConversationsSidebarView.swift */,
+				548F3AE7EF632ADA0420CEB3 /* FolderManagerModalView.swift */,
+				726B40CBDC95129DF25A5026 /* iOSMainView.swift */,
+				930C211C253DF8482A5A8402 /* LoginView.swift */,
+				270B2E41183C9A7D828510C7 /* MainView.swift */,
+				B9E4A6E654E3B6B011EBEF65 /* MessageRowView.swift */,
+				5CE7545208FAA3CF581220F8 /* NewMessageModalView.swift */,
+				7841BDDD21CDF2A4A6B6F389 /* PhotoViewerWindowView.swift */,
+				E0295418CF68F124ACE2DED4 /* PinnedMessageBarView.swift */,
+				D40C0E5ABDC44F5C0BA46345 /* SettingsModalView.swift */,
+				7B15334749ACAB5D71984758 /* TelegramAudioMiniplayerView.swift */,
+				125A85C2E642445F60BEA532 /* ThemePreviewModalView.swift */,
+				7DC6F10890E8F4BB90DA1011 /* VideoPlayerWindowView.swift */,
+				53B12EFD600AB4C57C5AC195 /* VKAnimatedGIFView.swift */,
+				50FBA15E1AF3E55B70D0F705 /* VKAnimatedStickerView.swift */,
+				0AA733E4E43D7A1130D2C203 /* VKConversationInfoView.swift */,
+				2EB0B1F5271DC95373D546FE /* VKEmojiStickerPickerView.swift */,
+				C7C34DA365933ACE01CF7587 /* VKMediaAttachSheetView.swift */,
+				BA33A80B72C9319CF10C7146 /* WriteBarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D27EB72B9C5D21E137B94BDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A01C51EC91F0AD0700BB02F /* OpenVK Messenger iOS.app */,
+				7BDFC18ABAE583B88C3B9DD2 /* OpenVK Messenger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB6B0529DAB13DD83EBBA401 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0F7762374E2CBE4B2C56B91E /* AudioPlayerService.swift */,
+				7191B32713A34D5C9011F461 /* CrashLoggerService.swift */,
+				ECC668B2AAB2106C496683A9 /* MessengerStore.swift */,
+				5BFEF2F188569215283F147C /* NotificationService.swift */,
+				2ED70273FFECF5BD58139B61 /* OpenVKAPIService.swift */,
+				0DE74026060EDAF6AFF37429 /* OpenVKLongPollService.swift */,
+				C1E6771D50DC3D87DA1B6E00 /* PhotoViewerService.swift */,
+				FC67F6CCFBDBC304C0C6DB7C /* VideoPlayerService.swift */,
+				B2D1E00E89D5D3351D4202CE /* VKImageCache.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B87D6C53CD9F698EF081800 /* OpenVK Messenger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 870BA325D8B832A09831254C /* Build configuration list for PBXNativeTarget "OpenVK Messenger" */;
+			buildPhases = (
+				A7228A406AAF4A7737299BEB /* Sources */,
+				2F20A32FDEDCAB021BD68757 /* Resources */,
+				55880B4144C098EBFAC124B2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenVK Messenger";
+			packageProductDependencies = (
+				A9D4D7A70A2E273086262843 /* Lottie */,
+			);
+			productName = "OpenVK Messenger";
+			productReference = 7BDFC18ABAE583B88C3B9DD2 /* OpenVK Messenger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6DE506D16AFF351BFBC6D5F /* OpenVK Messenger iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7EAE4786A90315874F70069 /* Build configuration list for PBXNativeTarget "OpenVK Messenger iOS" */;
+			buildPhases = (
+				6B115F406D7C11C7B5B450FE /* Sources */,
+				3D7A8E93BB4B8FDB11DCB741 /* Resources */,
+				951C686992451D0722681C1E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenVK Messenger iOS";
+			packageProductDependencies = (
+				AABFA8CB8AA2C944AE981E5C /* Lottie */,
+			);
+			productName = "OpenVK Messenger iOS";
+			productReference = 9A01C51EC91F0AD0700BB02F /* OpenVK Messenger iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90B38D5D3B0E5AD687DFBABD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					0B87D6C53CD9F698EF081800 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Manual;
+					};
+					A6DE506D16AFF351BFBC6D5F = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = B703860991A020B59CEDFE59 /* Build configuration list for PBXProject "OpenVK Messenger" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 5C5A098C2F8DF565BAC5C18B;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				7A0652BC9B433D57DA82F882 /* XCRemoteSwiftPackageReference "lottie-spm" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D27EB72B9C5D21E137B94BDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B87D6C53CD9F698EF081800 /* OpenVK Messenger */,
+				A6DE506D16AFF351BFBC6D5F /* OpenVK Messenger iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F20A32FDEDCAB021BD68757 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2946E861ACA741AE9AC1DF2 /* AppIcon.icns in Resources */,
+				2C07C24697402920D75B1DE8 /* Assets.xcassets in Resources */,
+				2068231EFEDFD8757063305B /* burano_preview.png in Resources */,
+				26B81B57E7299F8D53848361 /* telegram_doodles.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D7A8E93BB4B8FDB11DCB741 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25A3A2D261C54CB50F52B1E7 /* Assets.xcassets in Resources */,
+				60300389F2B10380D63369C1 /* burano_preview.png in Resources */,
+				A3362C0959AB73540D56688A /* telegram_doodles.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B115F406D7C11C7B5B450FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DE34015935339799B14154E /* AccountBankModalView.swift in Sources */,
+				13928618D71E0E8B737C426C /* AudioPlayerService.swift in Sources */,
+				AE70DC5D6CF3847AA70199A8 /* ChatFoldersSidebarView.swift in Sources */,
+				AF994A64ED68BC055739025E /* ChatHeaderView.swift in Sources */,
+				BA6834DFE5AE7985413E304C /* ChatView.swift in Sources */,
+				C281DE079F76CC2E1F0AE9AF /* ChatWallpaperBackgroundView.swift in Sources */,
+				1456002F1E3F24A4CF59AAD6 /* ColorContrast.swift in Sources */,
+				19E4D8A9AF0C6B2D48734001 /* CommunityMessagesModalView.swift in Sources */,
+				FEC051FC538BC48135756807 /* ConversationRowView.swift in Sources */,
+				188129FDCEAA0915F4804193 /* ConversationsSidebarView.swift in Sources */,
+				9D8B1737E9361BB8ECB5679E /* CrashLoggerService.swift in Sources */,
+				3A290EF1A6380973FBCF776A /* FolderManagerModalView.swift in Sources */,
+				0ECEF6CFF8BF866859E5475D /* LoginView.swift in Sources */,
+				FC4E79E6D6294A062025605B /* MainView.swift in Sources */,
+				C566A457D30948E2E014F5A4 /* MessageRowView.swift in Sources */,
+				941AB26C213A9DE37EFB0C81 /* MessengerStore.swift in Sources */,
+				0816CE55EE9C558306EA6B5D /* Models.swift in Sources */,
+				E05139912BE49FBEECDD3A42 /* NewMessageModalView.swift in Sources */,
+				C3FAE3F293BC74E35EE295B6 /* NotificationService.swift in Sources */,
+				A0CEB69CE3F2A317D41418FE /* OpenVKAPIService.swift in Sources */,
+				A19B604761D2DCDD98108B05 /* OpenVKLongPollService.swift in Sources */,
+				A89557D186366CE4CFB1EF01 /* OpenVKMessengerApp.swift in Sources */,
+				D3DEFBF6B8221EDB5115F7A4 /* PhotoViewerService.swift in Sources */,
+				F5089DDACBC6C522DEA83280 /* PhotoViewerWindowView.swift in Sources */,
+				619BB5975203AAE793AF1350 /* PinnedMessageBarView.swift in Sources */,
+				5BA35F633C19AA7C39C2A936 /* PlatformCompat.swift in Sources */,
+				E80708DFA4608B4E8EEF1207 /* SettingsModalView.swift in Sources */,
+				1E03DC3844FA93FC1DAAB142 /* TelegramAudioMiniplayerView.swift in Sources */,
+				026187B0652A609C59593B18 /* TelegramThemeImporter.swift in Sources */,
+				76B895BF8617BAA6E1BE0BE8 /* ThemeAssets.swift in Sources */,
+				6BE768B6C110F3C90CE73B70 /* ThemeManager.swift in Sources */,
+				90CCF9AB1E46077E431EC086 /* ThemeModel.swift in Sources */,
+				8AAE7A78B286238733CC6A5A /* ThemePreviewModalView.swift in Sources */,
+				87407FD96C78C38C20ACA6A2 /* VKAnimatedGIFView.swift in Sources */,
+				F3AA0135CB31E6A3D19A1400 /* VKAnimatedStickerView.swift in Sources */,
+				9866798655424EFDBE8C4E33 /* VKComponents.swift in Sources */,
+				1CFC9FC476725886F163889C /* VKConversationInfoView.swift in Sources */,
+				447CEC7D8A96BC78498B142F /* VKDesignTokens.swift in Sources */,
+				945AE1047F415D70BFE37653 /* VKEmojiStickerPickerView.swift in Sources */,
+				2EF55AEC14A10739304D04C9 /* VKImageCache.swift in Sources */,
+				4FA91AD169DAD4044E2CCF67 /* VKMediaAttachSheetView.swift in Sources */,
+				EACB6655C8A8AAAC28D908B4 /* VideoPlayerService.swift in Sources */,
+				D660D07139CF689123369792 /* VideoPlayerWindowView.swift in Sources */,
+				8A82964E0B2B74B4BFE7B2BA /* WriteBarView.swift in Sources */,
+				B0B8F23CC844D3BC3B1258D4 /* iOSMainView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7228A406AAF4A7737299BEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345CE528D8E27BF3F69F061B /* AccountBankModalView.swift in Sources */,
+				775CBAF5425FFB894578F762 /* AudioPlayerService.swift in Sources */,
+				337BE8529C76271A4524ED72 /* ChatFoldersSidebarView.swift in Sources */,
+				51C1C2EE48442AA946F04423 /* ChatHeaderView.swift in Sources */,
+				0531E329A1C362C52EDEBE59 /* ChatView.swift in Sources */,
+				F49C8FDCCC0713EBDFD2F403 /* ChatWallpaperBackgroundView.swift in Sources */,
+				4E0A43D1246E6AF97EE71F76 /* ColorContrast.swift in Sources */,
+				14DCB73562D522651639A4E9 /* CommunityMessagesModalView.swift in Sources */,
+				76101E25E7FB49273B71316C /* ConversationRowView.swift in Sources */,
+				17EB70ED014B073D40B14BFB /* ConversationsSidebarView.swift in Sources */,
+				E1BDBC7D3A0E40240A01CBB8 /* CrashLoggerService.swift in Sources */,
+				A4036D4CFBD6A9FE5541419A /* FolderManagerModalView.swift in Sources */,
+				E6A36F8ECD0D3C9298AAFB29 /* LoginView.swift in Sources */,
+				D94D8354CC59CF707CC1AB7B /* MainView.swift in Sources */,
+				58F765609093A9CF5354AFE5 /* MessageRowView.swift in Sources */,
+				CC2C64E178E38E7395FCC981 /* MessengerStore.swift in Sources */,
+				EA9F58A93BEA764C29E8EBD0 /* Models.swift in Sources */,
+				22A6F92273F84FF243A8504B /* NewMessageModalView.swift in Sources */,
+				052F521EDA703EA6D05A376B /* NotificationService.swift in Sources */,
+				84A5EA94E3F48507715A2126 /* OpenVKAPIService.swift in Sources */,
+				39D90ADC264BF7C0018FA89B /* OpenVKLongPollService.swift in Sources */,
+				A810DD4DD4D4CD2DCE4721FF /* OpenVKMessengerApp.swift in Sources */,
+				E4134AC1C8270E1B1070634A /* PhotoViewerService.swift in Sources */,
+				F9B2399C2D9B10D273A586A6 /* PhotoViewerWindowView.swift in Sources */,
+				16BAFD64A2EC29D64D10EE16 /* PinnedMessageBarView.swift in Sources */,
+				617D0137B3FF277A84758EA8 /* PlatformCompat.swift in Sources */,
+				091C4AE3E70B6C20B4AD147E /* SettingsModalView.swift in Sources */,
+				17CBB4514F2DE1EE1EC538E8 /* TelegramAudioMiniplayerView.swift in Sources */,
+				10E21F586E723181E458D00E /* TelegramThemeImporter.swift in Sources */,
+				D517533BC1FE5CB21A382D0D /* ThemeAssets.swift in Sources */,
+				CE8CD19AB1E81CF3FF73BA27 /* ThemeManager.swift in Sources */,
+				CBB60309DCA1DF76D142BA06 /* ThemeModel.swift in Sources */,
+				60F1CE5729A45B530B7B6D0F /* ThemePreviewModalView.swift in Sources */,
+				6F71105FBDBA8F5AC5E8D004 /* VKAnimatedGIFView.swift in Sources */,
+				8393735CC83E989347F31F05 /* VKAnimatedStickerView.swift in Sources */,
+				D833E2696EAD4170B03752A4 /* VKComponents.swift in Sources */,
+				65E2A29DF5EFEF2257F8F4F9 /* VKConversationInfoView.swift in Sources */,
+				EAC0B2FE4CECFC61121C5787 /* VKDesignTokens.swift in Sources */,
+				913300E4851A7A245273FB08 /* VKEmojiStickerPickerView.swift in Sources */,
+				F16720754353E319B0DAB733 /* VKImageCache.swift in Sources */,
+				F2A1484E7A458C8BCE0DFB27 /* VKMediaAttachSheetView.swift in Sources */,
+				AD120932EF6620C511896E69 /* VideoPlayerService.swift in Sources */,
+				4BECE96B48D3CA097B267511 /* VideoPlayerWindowView.swift in Sources */,
+				C1C5400041D26DD850D3A404 /* WriteBarView.swift in Sources */,
+				9341BEC1AA56D9604006D218 /* iOSMainView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		094E300E297A03ED68A9DFFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "OpenVK Messenger";
+				INFOPLIST_KEY_CFBundleIconFile = AppIcon;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexs.openvk.messenger;
+				PRODUCT_NAME = "OpenVK Messenger";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		35228F8A064B66C3B480F4C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "OpenVK Messenger";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Доступ к камере необходим для съемки фото и видео.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Доступ к микрофону необходим для голосовых сообщений.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Доступ к фото необходим для отправки изображений и видео.";
+				INFOPLIST_KEY_UIBackgroundModes = "audio fetch remote-notification processing";
+				INFOPLIST_KEY_UIFileSharingEnabled = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexs.openvk.messenger.ios;
+				PRODUCT_NAME = "OpenVK Messenger";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		49111CCBB2BF15B06CBFB4EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "OpenVK Messenger";
+				INFOPLIST_KEY_CFBundleIconFile = AppIcon;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexs.openvk.messenger;
+				PRODUCT_NAME = "OpenVK Messenger";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B902882B1FA10D47757B5F70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "OpenVK Messenger";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Доступ к камере необходим для съемки фото и видео.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Доступ к микрофону необходим для голосовых сообщений.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Доступ к фото необходим для отправки изображений и видео.";
+				INFOPLIST_KEY_UIBackgroundModes = "audio fetch remote-notification processing";
+				INFOPLIST_KEY_UIFileSharingEnabled = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexs.openvk.messenger.ios;
+				PRODUCT_NAME = "OpenVK Messenger";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DACE866042D9D19D3A395AFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DDB4E326DE7EC9AAF740BCE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		870BA325D8B832A09831254C /* Build configuration list for PBXNativeTarget "OpenVK Messenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49111CCBB2BF15B06CBFB4EF /* Debug */,
+				094E300E297A03ED68A9DFFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B703860991A020B59CEDFE59 /* Build configuration list for PBXProject "OpenVK Messenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB4E326DE7EC9AAF740BCE7 /* Debug */,
+				DACE866042D9D19D3A395AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C7EAE4786A90315874F70069 /* Build configuration list for PBXNativeTarget "OpenVK Messenger iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B902882B1FA10D47757B5F70 /* Debug */,
+				35228F8A064B66C3B480F4C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7A0652BC9B433D57DA82F882 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A9D4D7A70A2E273086262843 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7A0652BC9B433D57DA82F882 /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+		AABFA8CB8AA2C944AE981E5C /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7A0652BC9B433D57DA82F882 /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 90B38D5D3B0E5AD687DFBABD /* Project object */;
+}
