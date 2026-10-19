@@ -201,9 +201,3 @@ Sources/OpenVKMessenger/
 3. Закоммитьте изменения (`git commit -m 'Add cool feature'`).
 4. Запушьте ветку (`git push origin feature/cool-feature`).
 5. Откройте **Pull Request**.
-
----
-
-## 📄 Лицензия
-
-Проект распространяется под лицензией **MIT**. Подробности в файле [LICENSE](LICENSE).
